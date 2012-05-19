@@ -1,0 +1,2 @@
+This is a tool which can be used to handle sqlite databases in Real Time in android devices.
+Currently one has to enter queries to make changes to the database. But it will soon have a proper UI to handle them without typing in queries
