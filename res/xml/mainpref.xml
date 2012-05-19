@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:key="db" android:summary="Enter the Database Name" android:title="Database Name"/>
+    <EditTextPreference android:key="table" android:summary="Enter the Table Name" android:title="Table Name"/>
+
+    
+
+</PreferenceScreen>
