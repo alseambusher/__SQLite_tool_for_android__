@@ -59,6 +59,7 @@ public class main extends Activity {
     public void updateTable(){
     	try{
     	 SQLiteDatabase db=openOrCreateDatabase(dbname, MODE_PRIVATE, null);
+    	 basicfunctions.dropColumn(db,"test","second");
          Cursor c=db.rawQuery("select * from "+tablename , null);
          Cursor last=c;
          last.moveToLast();
